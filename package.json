@@ -1,0 +1,22 @@
+{
+  "name": "JavaScript_CIDEAD",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test-001": "node src/001-Basics/Primitives.test.js | tap-spec",
+    "test-002": "node src/002-Logic/Logic.test.js | tap-spec",
+    "test-003": "node src/003-Arrays/Arrays.test.js | tap-spec",
+    "test-004": "node src/004-Objects/Objects.test.js | tap-spec"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tape": "^5.2.2"
+  },
+  "devDependencies": {
+    "tap-spec": "^5.0.0"
+  }
+}
