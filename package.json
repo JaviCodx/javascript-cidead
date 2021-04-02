@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test-001": "node src/001-Basics/Primitives.test.js | tap-spec",
     "test-002": "node src/002-Logic/Logic.test.js | tap-spec",
