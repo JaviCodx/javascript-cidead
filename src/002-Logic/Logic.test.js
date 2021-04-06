@@ -76,7 +76,7 @@ tape("-----sumOfTwoNumbers Test-----", (assert) => {
 tape("-----divOfTwoNumbers Test-----", (assert) => {
   assert.deepEqual(divOfTwoNumbers(10, 5), 2, "10/5 should return 2");
   assert.deepEqual(divOfTwoNumbers(2, 0), 4, "2/0 should return 4");
-  assert.deepEqual(divOfTwoNumbers(0, 10), 20, "0/10 should return 0");
+  assert.deepEqual(divOfTwoNumbers(0, 10), 0, "0/10 should return 0");
   assert.deepEqual(divOfTwoNumbers(0, 0), "Error", `0/0 should return "Error"`);
 
   assert.end();
